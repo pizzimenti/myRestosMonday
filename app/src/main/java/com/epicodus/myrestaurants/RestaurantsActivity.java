@@ -18,7 +18,7 @@ public class RestaurantsActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
         String location = intent.getStringExtra("location");
-        mLocationTextView.setText("Here are restos near: " +location);
+        mLocationTextView.setText("Here are all the restos near: " +location);
 
     }
 }
